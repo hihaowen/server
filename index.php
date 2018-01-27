@@ -8,3 +8,4 @@
  ****************************************************************/
 
 var_dump($_SERVER['SERVER_ENV_TAG']);
+var_dump($_SERVER['REQUEST_URI']);
