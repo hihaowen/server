@@ -21,6 +21,8 @@ https://api.weixin.qq.com/sns/oauth2/refresh_token?appid=APPID&grant_type=refres
 https://api.weixin.qq.com/sns/userinfo?access_token=ACCESS_TOKEN&openid=OPENID&lang=zh_CN
 */
 
+$_SERVER['SERVER_NAME'] = 'api.ltwen.com';
+
 CONST APP_ID = 'wxa1da1705feafe4fd';
 CONST APP_SECRET = 'e94dafe02d083e277bc01ecf3f0859f1';
 
