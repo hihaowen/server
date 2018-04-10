@@ -6,7 +6,7 @@
  * Time: 下午2:33
  */
 
-$host = 'dev1.office.tengyue360.com';
+$host = 'dev1.office-public.tengyue360.com';
 $user = 'root';
 $pass = 'TengYue360!';
 $db_name = 'test';
