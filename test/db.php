@@ -41,8 +41,6 @@ if( $db->errno ) {
     die('Query Error: ' . $db->error . ', Errno: ' . $db->errno);
 }
 
-while( $assoc = mysqli_fetch_assoc($result) ) {
-    print_r($assoc);
-}
+echo (int) $result->num_rows, PHP_EOL;
 
 // $db->close();
