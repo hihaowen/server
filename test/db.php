@@ -43,4 +43,11 @@ if( $db->errno ) {
 
 echo (int) $result->num_rows, PHP_EOL;
 
+$process_arr = [];
+while ($row = $result->fetch_object()){
+    $process_arr[] = $row;
+}
+
+print_r($process_arr);
+
 // $db->close();
