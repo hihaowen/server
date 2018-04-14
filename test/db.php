@@ -35,7 +35,7 @@ for($i = 0; $i < 1000; $i++) {
 }
 */
 
-$result = $db->query('show full processlist');
+$result = $db->query('show variables like \'%timeout%\'');
 
 if( $db->errno ) {
     die('Query Error: ' . $db->error . ', Errno: ' . $db->errno);
